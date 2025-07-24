@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, Brain, Trophy, Users, Star, CheckCircle, Clock, BarChart3, User, PlusCircle, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Container, Button, Card, CardContent, Badge, Header, Nav, Section, Span, H1, H2, P, Div, Footer } from '../lib/dev-container';
+import { Container, Button, Card, CardContent, Header, Nav, Section, Span, H1, H2, P, Div, Footer } from '../lib/dev-container';
 import { useAuth } from '../components/auth/AuthProvider';
 import type { ComponentRegistryId } from '../registry/componentRegistry';
 
